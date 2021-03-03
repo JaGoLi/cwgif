@@ -19,8 +19,10 @@ elif [[ "$hour" == "01" ]]; then
 	HR[1]=00
 	HR[2]=23
 else
-	let HR[1]=$hour-1
-	let HR[2]=$hour-2
+	let hr[1]=$hour-1
+	let hr[2]=$hour-2
+	HR[1]=$(printf "%02d" ${hr[1]})
+	HR[2]=$(printf "%02d" ${hr[2]})
 fi
 
 ##Read file
