@@ -27,8 +27,8 @@ Depending on the season, the user can change to see the radar for rain or snow. 
 This is fairly straightforward: input the amount of seconds for each image to be displayed. Decimal numbers are supported, with the default being 0.3 seconds per image.
 
 ## Installation
-For arch linux users install the ```cwgif-git``` package in the aur.<br/> <br/>
-For all other distributions, make the included ``` install.sh``` script executable and RUN IT AS NON-ROOT USER. This ensures the configuration file is placed in the right place. An example to install is shown below: <br/>
+The dependencies for this script are: ```mpv``` and ```youtube-dl```<br/><br/>
+For all distributions, make the included ``` install.sh``` script executable and RUN IT AS NON-ROOT USER. This ensures the configuration file is placed in the right place. An example to install is shown below: <br/>
 ```git clone https://github.com/JaGoLi/cwgif.git && cd cwgit```<br/>
 ```chmod +x install.sh```<br/>
 ```./install.sh```
